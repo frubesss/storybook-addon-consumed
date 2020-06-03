@@ -1,0 +1,22 @@
+{
+  "name": "storybook-addon-consumed",
+  "version": "1.0.0",
+  "description": "Storybook addon to view where stories are consumed.",
+  "license": "MIT",
+  "repository": "frubesss/storybook-addon-consumed",
+  "homepage": "https://github.com/frubesss/storybook-addon-consumed",
+  "bugs": {
+    "url": "https://github.com/frubesss/storybook-addon-consumed/issues"
+  },
+  "author": "Craig Robertson <robertson.cra@gmail.com> (https://craigrobertson.me)",
+  "main": "dist/index.js",
+  "keywords": [
+    "addon",
+    "storybook",
+    "used",
+    "consumed"
+  ],
+  "files": [
+    "dist/**/*"
+  ]
+}
