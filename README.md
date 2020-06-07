@@ -15,10 +15,11 @@ npm install
 
 ## Author
 
-👤 **Craig Robertson <robertson.cra@gmail.com> (<https://craigrobertson.me)>**
+👤 **Craig Robertson
 
-* Website: craigrobertson.me
+* Website: [craigrobertson.me](https://craigrobertson.me)
 * Github: [@frubesss](https://github.com/frubesss)
+* Email: robetson.cra@gmail.com
 
 ## 🤝 Contributing
 
