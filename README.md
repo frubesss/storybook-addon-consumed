@@ -15,7 +15,7 @@ npm install
 
 ## Author
 
-👤 **Craig Robertson
+👤 Craig Robertson
 
 * Website: [craigrobertson.me](https://craigrobertson.me)
 * Github: [@frubesss](https://github.com/frubesss)
