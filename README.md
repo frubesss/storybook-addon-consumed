@@ -4,7 +4,7 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=frubesss_storybook-addon-consumed&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=frubesss_storybook-addon-consumed)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=frubesss_storybook-addon-consumed&metric=security_rating)](https://sonarcloud.io/dashboard?id=frubesss_storybook-addon-consumed)
 
-> [Storybook](https://storybook.js.org) addon to view where stories are consumed.
+> [Storybook](https://storybook.js.org) addon to view where stories are consumed in Github Repositories.
 
 Live Demo
 
@@ -55,11 +55,19 @@ storiesOf('Components', module)
   .add('MyComponent', () => <MyComponent />);
 ```
 
-### Setup Github Token
+### Add Github Personal Access Token
+
+Create a .env file in the root of your application and add your Github Personal Access Token that can be created [here](https://github.com/settings/tokens/new), with a scope of repo.
+
+```env
+GITHUB_SEARCH_API_TOKEN=***Created Personal Access Token****
+```
+
+### Creat Middleware
+
+Custom middleware is needed to protect the Github Personal Access Token from the outside world.
 
 ### Navigate to Consumed Tab
-
-Warning about client side token
 
 ## Author
 
@@ -73,7 +81,7 @@ Warning about client side token
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check [issues page](https://github.com/frubesss/storybook-addon-consumed/issues). 
+Feel free to check [issues page](https://github.com/frubesss/storybook-addon-consumed/issues).
 
 ## Show your support
 
