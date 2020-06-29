@@ -6,9 +6,13 @@
 
 > [Storybook](https://storybook.js.org) addon to view where stories are consumed in Github Repositories.
 
-Live Demo
+## Live Demo
 
-Example Repository
+[storybook-addon-consumed-example.vercel.app](https://storybook-addon-consumed-example.vercel.app)
+
+## Example Repository
+
+[storybook-addon-consumed-example](https://github.com/frubesss/storybook-addon-consumed-example)
 
 ## Setup
 
