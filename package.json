@@ -1,7 +1,7 @@
 {
   "name": "storybook-addon-consumed",
   "version": "1.0.0",
-  "description": "Storybook addon to view where stories are consumed.",
+  "description": "Storybook addon to view where stories are consumed in Github Repositories.",
   "license": "MIT",
   "repository": "frubesss/storybook-addon-consumed",
   "homepage": "https://github.com/frubesss/storybook-addon-consumed",
@@ -9,7 +9,7 @@
     "url": "https://github.com/frubesss/storybook-addon-consumed/issues"
   },
   "author": "Craig Robertson <robertson.cra@gmail.com> (https://craigrobertson.me)",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "keywords": [
     "addon",
     "storybook",
@@ -17,7 +17,9 @@
     "consumed"
   ],
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "README.md",
+    "*.js"
   ],
   "devDependencies": {
     "eslint": "^7.2.0",
