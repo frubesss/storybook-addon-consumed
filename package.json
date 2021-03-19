@@ -1,7 +1,7 @@
 {
   "name": "storybook-addon-consumed",
   "version": "1.0.0",
-  "description": "Storybook addon to view where stories are consumed in Github Repositories.",
+  "description": "Storybook addon to view where stories are consumed.",
   "license": "MIT",
   "repository": "frubesss/storybook-addon-consumed",
   "homepage": "https://github.com/frubesss/storybook-addon-consumed",
@@ -14,7 +14,8 @@
     "addon",
     "storybook",
     "used",
-    "consumed"
+    "consumed",
+    "storybook-addon"
   ],
   "files": [
     "dist/**/*",
